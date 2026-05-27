@@ -2,6 +2,8 @@
 
 **Software Engineer currently working in fault-tolerant distributed systems, real-time voice infrastructure, and production-scale data engines.**
 
+**Portfolio: https://sabir.is-a.dev**
+
 > 90% of my enterprise code lives behind private corporate GitLab mirrors. Here is the actual scale, traffic, and complexity I design and manage daily:
 
 ## 🚀 Production Scale & Core Achievements
