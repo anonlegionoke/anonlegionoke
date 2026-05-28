@@ -14,6 +14,20 @@
 * **Real-Time Notification Engines:** Engineered a RabbitMQ and WebSocket event pipeline processing 500K+ daily events, sustaining 500 messages/sec with sub-50ms latency for live call state webhooks.
 * **Data Reliability & Optimization:** Redesigned logging pipelines to append-only logic, achieving 100% call state accuracy, eliminating complex backend reconciliation, and cutting final status latency by 80% (5s to 1s).
 * **Infrastructure & CI/CD:** Orchestrated a Docker Swarm environment for 19 microservices. Built tag-driven automated CI pipelines that enabled 8+ zero-downtime weekly production releases.
+
+## 🧪 Personal Projects
+
+📦 **[Angle](https://github.com/anonlegionoke/angle)**
+> An AI animation studio that converts natural language prompts into dynamic mathematical animations using Python, Manim, and automated FFmpeg processing pipelines.
+
+📦 **[Taskforge - Distributed Job Scheduler](https://github.com/anonlegionke/taskforge)**
+> A fault-tolerant, horizontally scalable TypeScript engine driven by RabbitMQ and PostgreSQL, featuring a live telemetry and monitoring dashboard.
+
+📦 **[Askverse](https://github.com/anonlegionoke/chat-with-ai-rag)**
+> A production-ready multi-mode document Q&A system leveraging LangChain, advanced semantic routing, and vector databases.
+
+📦 **[Crypto Gate](https://github.com/anonlegionoke/crypto-pay-gateway)**
+> A crypto payment gateway enabling merchants to accept any SPL token with automatic USDC conversion via Jupiter aggregator on Solana, featuring real-time payment detection and a merchant dashboard.
   
 ## 🛠️ Core Engineering Toolkit
 
