@@ -20,7 +20,7 @@
 📦 **[Angle](https://github.com/anonlegionoke/angle)**
 > An AI animation studio that converts natural language prompts into dynamic mathematical animations using Python, Manim, and automated FFmpeg processing pipelines.
 
-📦 **[Taskforge - Distributed Job Scheduler](https://github.com/anonlegionke/taskforge)**
+📦 **[Taskforge - Distributed Job Scheduler](https://github.com/anonlegionoke/taskforge)**
 > A fault-tolerant, horizontally scalable TypeScript engine driven by RabbitMQ and PostgreSQL, featuring a live telemetry and monitoring dashboard.
 
 📦 **[Askverse](https://github.com/anonlegionoke/chat-with-ai-rag)**
