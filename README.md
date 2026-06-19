@@ -6,14 +6,56 @@
 
 > 90% of my enterprise code lives behind private corporate GitLab mirrors. Here is the actual scale, traffic, and complexity I design and manage daily:
 
-## 🚀 Production Scale & Core Achievements
+## Production Scale & Core Achievements
 
-* **High-Throughput Telephony:** Architected multi-instance real-time telephony services (SIP.js, FreeSWITCH) across 9 microservices, implementing concurrency-safe routing via Cassandra LWTs.
-* **Massive Data Migrations:** Executed live, dual-write migrations of 20+ Cassandra tables (15M+ rows) from DataStax to self-hosted infrastructure. Built fault-tolerant Node.js automation that successfully bypassed mid-run version incompatibilities without crashing.
-* **Distributed Schedulers:** Built a shard-based distributed job scheduler processing 10K+ daily tasks. Enforced epoch fencing for zero split-brain incidents and tuned `gc_grace_seconds` to eliminate tombstone bloat, dropping Cassandra read timeouts to zero. 
-* **Real-Time Notification Engines:** Engineered a RabbitMQ and WebSocket event pipeline processing 500K+ daily events, sustaining 500 messages/sec with sub-50ms latency for live call state webhooks.
-* **Data Reliability & Optimization:** Redesigned logging pipelines to append-only logic, achieving 100% call state accuracy, eliminating complex backend reconciliation, and cutting final status latency by 80% (5s to 1s).
-* **Infrastructure & CI/CD:** Orchestrated a Docker Swarm environment for 19 microservices. Built tag-driven automated CI pipelines that enabled 8+ zero-downtime weekly production releases.
+<details>
+<summary><b>High-Throughput Telephony Architecture</b></summary>
+
+* Architected multi-instance real-time telephony services using SIP.js and FreeSWITCH across 9 microservices.
+* Implemented concurrency-safe routing using Cassandra Lightweight Transactions (LWTs).
+
+</details>
+
+<details>
+<summary><b>Massive Data Migrations</b></summary>
+
+* Executed live, dual-write migrations of 20+ Cassandra tables with over 15 million rows from DataStax to self-hosted infrastructure.
+* Built fault-tolerant Node.js automation that successfully bypassed mid-run version incompatibilities without crashing.
+
+</details>
+
+<details>
+<summary><b>Distributed Schedulers</b></summary>
+
+* Built a shard-based distributed job scheduler processing over 10,000 daily tasks.
+* Enforced epoch fencing for zero split-brain incidents.
+* Tuned `gc_grace_seconds` to eliminate tombstone bloat, dropping Cassandra read timeouts to zero.
+
+</details>
+
+<details>
+<summary><b>Real-Time Notification Engines</b></summary>
+
+* Engineered a RabbitMQ and WebSocket event pipeline processing over 500,000 daily events.
+* Sustained 500 messages per second with sub-50ms latency for live call state webhooks.
+
+</details>
+
+<details>
+<summary><b>Data Reliability & Optimization</b></summary>
+
+* Redesigned logging pipelines to append-only logic, achieving 100% call state accuracy and eliminating complex backend reconciliation.
+* Cut final status latency by 80%, dropping it from 5 seconds to 1 second.
+
+</details>
+
+<details>
+<summary><b>Infrastructure & CI/CD</b></summary>
+
+* Orchestrated a Docker Swarm environment for 19 microservices.
+* Built tag-driven automated CI pipelines that enabled 8 or more zero-downtime weekly production releases.
+
+</details>
 
 ## 🧪 Personal Projects
 
