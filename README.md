@@ -17,7 +17,7 @@
 </details>
 
 <details>
-<summary><b>Massive Data Migrations</b></summary>
+<summary><b>Data Migrations</b></summary>
 
 * Executed live, dual-write migrations of 20+ Cassandra tables with over 15 million rows from DataStax to self-hosted infrastructure.
 * Built fault-tolerant Node.js automation that successfully bypassed mid-run version incompatibilities without crashing.
