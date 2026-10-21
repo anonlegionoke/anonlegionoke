@@ -1,6 +1,7 @@
 # Hey, I'm Sabir 👋
 
-**Software Engineer currently working in fault-tolerant distributed systems, real-time voice infrastructure, and production-scale data engines.**
+**Software engineer architecting distributed systems, scaling event-driven infrastructure as a
+founding engineer. Shipped AI workflows, RAG pipelines, and agentic orchestration, blocking 100% of 10 attack vectors via custom guardrails.**
 
 **Portfolio: https://sabir.is-a.dev**
 
@@ -27,7 +28,7 @@
 <details>
 <summary><b>Distributed Schedulers</b></summary>
 
-* Built a shard-based distributed job scheduler processing over 10,000 daily tasks.
+* Built a shard-based distributed job scheduler processing over 100,000+ daily tasks.
 * Enforced epoch fencing for zero split-brain incidents.
 * Tuned `gc_grace_seconds` to eliminate tombstone bloat, dropping Cassandra read timeouts to zero.
 
@@ -36,7 +37,7 @@
 <details>
 <summary><b>Real-Time Notification Engines</b></summary>
 
-* Engineered a RabbitMQ and WebSocket event pipeline processing over 500,000 daily events.
+* Engineered a RabbitMQ and WebSocket event pipeline processing over 500,000+ daily events.
 * Sustained 500 messages per second with sub-50ms latency for live call state webhooks.
 
 </details>
